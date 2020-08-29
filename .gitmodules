@@ -1,0 +1,3 @@
+[submodule "blocks/LotteryFloor"]
+	path = blocks/LotteryFloor
+	url = git@git.jd.com:nb-fe/flower-qixi.git
