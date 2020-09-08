@@ -1,0 +1,59 @@
+{
+  "name": "@icedesign/lottery-floor",
+  "version": "1.0.0",
+  "description": "抽奖楼层组件",
+  "main": "lib/index.js",
+  "files": [
+    "src/",
+    "build/",
+    "screenshot.png"
+  ],
+  "author": {
+    "name": "ICE Team",
+    "email": "ice-admin@alibaba-inc.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ice-lab/react-materials/tree/master/blocks/LotteryFloor"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ice",
+    "ice-block"
+  ],
+  "dependencies": {
+    "@icedesign/container": "^1.x",
+    "prop-types": "^15.5.8",
+    "@alifd/next": "^1.x"
+  },
+  "devDependencies": {
+    "@icedesign/theme": "^0.x",
+    "react": "*",
+    "react-dom": "*"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.com"
+  },
+  "homepage": "https://unpkg.com/@icedesign/lottery-floor/build/index.html",
+  "scripts": {
+    "start": "../../node_modules/.bin/ice-scripts dev --config ../../ice.block.config.js",
+    "build": "../../node_modules/.bin/ice-scripts build --config ../../ice.block.config.js",
+    "screenshot": "../../node_modules/.bin/screenshot -l -s '#mountNode'",
+    "prepublishOnly": "npm run build && npm run screenshot"
+  },
+  "blockConfig": {
+    "name": "lottery-floor",
+    "screenshot": "https://img13.360buyimg.com/imagetools/jfs/t1/120729/24/10868/343388/5f45d2cfE8abf990d/8273780a0eb162f9.jpg",
+    "title": "抽奖活动楼层",
+    "categories": [
+      "Lottery",
+      "Floor"
+    ],
+    "version-0.x": "1.0.0"
+  }
+}
+
+
+
+
