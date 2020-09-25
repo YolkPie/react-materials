@@ -1,0 +1,18 @@
+{
+  "name": "dialog",
+  "version": "1.0.0",
+  "description": "对话框",
+  "blockConfig": {
+    "name": "dialog",
+    "screenshot": "https://img13.360buyimg.com/imagetools/jfs/t1/133084/36/10800/146654/5f6d5c49E8494b08d/10ee37cc08a4657d.png",
+    "themePackage": "@icedesign/theme",
+    "title": "对话框",
+    "categories": [
+      "对话框"
+    ],
+    "version-0.x": "0.1.9"
+  },
+  "dependencies": {
+    "@yolkpie/utils": "^1.0.4"
+  }
+}

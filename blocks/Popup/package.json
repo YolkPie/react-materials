@@ -1,0 +1,18 @@
+{
+  "name": "popup",
+  "version": "1.0.0",
+  "description": "弹出框，可自定义显示内容",
+  "blockConfig": {
+    "name": "popup",
+    "screenshot": "https://img14.360buyimg.com/imagetools/jfs/t1/143349/35/9251/175667/5f6d5bf9E07c7ebe5/9afec419077478e5.png",
+    "themePackage": "@icedesign/theme",
+    "title": "弹出框",
+    "categories": [
+      "弹出框"
+    ],
+    "version-0.x": "0.1.9"
+  },
+  "dependencies": {
+    "@yolkpie/utils": "^1.0.4"
+  }
+}
